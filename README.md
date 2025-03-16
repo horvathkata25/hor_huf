@@ -1,10 +1,10 @@
-Ez a projekt egy egyszerű ROS 2 csomagot tartalmaz, amely egy **autonóm jármű állapotát szimulálja**.  
+Ez a projekt egy egyszerű ROS 2 csomagot tartalmaz, amely egy autonóm jármű állapotát szimulálja.  
 A csomag két node-ból áll:  
 
-- **Publisher Node** (`publisher_node.cpp`): Egy üzenetet küld a `vehicle_status` topic-ra, amely jelzi, hogy a jármű mozog-e.  
-- **Subscriber Node** (`subscriber_node.cpp`): Feliratkozik a `vehicle_status` topic-ra, fogadja az üzeneteket és kiírja őket a konzolra.  
+- Publisher Node (`publisher_node.cpp`): Egy üzenetet küld a `vehicle_status` topic-ra, amely jelzi, hogy a jármű mozog-e.  
+- Subscriber Node (`subscriber_node.cpp`): Feliratkozik a `vehicle_status` topic-ra, fogadja az üzeneteket és kiírja őket a konzolra.  
 
-## **1. Telepítés és build**  
+## 1. Telepítés és build  
 A projekt build-eléséhez kövesd az alábbi lépéseket:  
 
 ```bash
