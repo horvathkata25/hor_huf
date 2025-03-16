@@ -16,6 +16,7 @@ colcon build --packages-select my_autonomous_package
 
 # Fordítás után forrásold a workspace-t
 source install/setup.bash
+```
 
 ## 2. Gráf
 
