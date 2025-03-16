@@ -19,6 +19,7 @@ source install/setup.bash
 
 ## 2. Gráf
 
+``` mermaid
 graph LR;
 
 pub([ /publisher_node]):::red --> topic1
